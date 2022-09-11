@@ -41,8 +41,6 @@
 
 /* Final del Header */
 
-
-
 /* Comienzo del Main */
 
 .main {
@@ -55,7 +53,7 @@
 }
 
 .jumbotron h1 {
-	font-size: 2.70rem;
+	font-size: 2.7rem;
 }
 
 .jumbotron p {
@@ -63,8 +61,6 @@
 }
 
 /* Final del Main */
-
-
 
 /* Comienzo del Footer */
 
@@ -82,7 +78,7 @@
 	font-size: 25px;
 }
 
-.btnfooter:hover{
+.btnfooter:hover {
 	color: #000000;
 }
 
