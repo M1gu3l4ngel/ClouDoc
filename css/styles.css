@@ -88,6 +88,35 @@
 /*--=======================================*/
 
 /*--=======================================*/
+/* Comienzo del Main - Contacto */
+/*--=======================================*/
+.col-md-6 h4 {
+	margin-bottom: 30px;
+}
+
+.linkbold {
+	text-decoration: none;
+	font-weight: 500;
+	color: #4010c5;
+}
+.linkbold:hover {
+	text-decoration: none;
+	font-weight: 500;
+	color: #000000;
+}
+
+.tituloslista dt {
+	font-weight: 500;
+}
+
+.linkservicios {
+	font-size: 15px;
+}
+/*--=======================================*/
+/* Final del Main - Contacto */
+/*--=======================================*/
+
+/*--=======================================*/
 /* Comienzo del Footer */
 /*--=======================================*/
 #footer {
