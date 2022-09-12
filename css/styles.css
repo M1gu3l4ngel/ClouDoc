@@ -46,11 +46,6 @@
 /*--=======================================*/
 /* Comienzo del Main */
 /*--=======================================*/
-.main {
-	margin-bottom: 73px;
-	margin-top: 14px;
-}
-
 .imgmain {
 	margin-top: 50px;
 }
@@ -61,6 +56,11 @@
 
 .jumbotron p {
 	font-size: 1.2rem;
+}
+
+.container__elementos {
+	margin-top: 44px;
+	margin-bottom: 43px;
 }
 /*--=======================================*/
 /* Final del Main */
