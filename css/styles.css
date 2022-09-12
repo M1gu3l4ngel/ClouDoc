@@ -70,7 +70,7 @@
 /* Comienzo del Main - ClouDoc */
 /*--=======================================*/
 .mtt {
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .sizing {
@@ -80,12 +80,8 @@
 
 .icon {
 	font-size: 50px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	color: #4010c5;
-}
-
-.col-md-4 {
-	margin-bottom: 14px;
 }
 /*--=======================================*/
 /* Final del Main - ClouDoc */
