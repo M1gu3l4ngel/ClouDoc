@@ -150,6 +150,37 @@
 	background-color: #4010c5;
 }
 
+.containersoluciones {
+	text-align: center;
+}
+
+.divsoluciones {
+	text-align: center;
+}
+
+.h1soluciones {
+	text-align: center;
+	font-size: 44px;
+}
+
+.parrafosoluciones {
+	font-size: 18px;
+	color: #555555;
+}
+
+.parrafosolucionesmini {
+	font-size: 14px;
+	color: #555555;
+}
+
+.asoluciones {
+	font-size: 18px;
+}
+
+.imgsoluciones {
+	min-height: 250px;
+}
+
 
 
 
