@@ -130,25 +130,24 @@
 /* Comienzo del Main - Soluciones */
 /*--=======================================*/
 
-.bgnew{
+.infosizing {
+	width: 610px;
+}
+
+.infosizing h6 {
+	font-size: 14px;
+}
+
+.infosizing h1 {
+	font-size: 44px;
+}
+
+.infosizing p {
+	font-size: 20px;
+}
+
+.colorcontainer {
 	background-color: #4010c5;
-	color: #ffffff;
-}
-
-.jumbo-edit{
-	width: 520px;
-}
-
-#demosolucion {
-	background-color: #ffffff;
-	border-style: none;
-	color: #000000;
-	font-weight: 500;
-}
-
-#demosolucion:hover {
-	background-color: #f5f5f5;
-	border-style: none;
 }
 
 
