@@ -25,8 +25,8 @@
 	<!--=======================================-->
 	<!-- Comienzo del Header -->
 	<!--=======================================-->
-	<header>
-		<nav class="navbar navbar-expand-lg d-flex">
+	<header class="position-fixed left-0 top-0 w-100">
+		<nav class="navbar navbar-expand-lg d-flex position-static top-0 display-none ">
 			<div class="container">
 				<a class="navbar-brand me-5" href="#">
 					<img src="./assets/img/logonegro.svg" alt="Logo Principal" width="85" height="85" />
@@ -66,19 +66,21 @@
 							<a class="nav-link" href="./pages/equipo.html">Equipo</a>
 						</li>
 					</ul>
-					<div class="container d-flex justify-content-end navbar-nav align-items-center">
+					<div class="container d-flex justify-content-end navbar-nav align-items-start">
 						<li class="nav-item ms-2">
 							<a class="nav-link numero d-lg-none d-xl-block d-md-block d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block"
 								href="https://www.whatsapp.com/?lang=es" target="_blank">(+52) 999 523 5420</a>
 						</li>
 						<li class="nav-item ms-2">
-							<a class="nav-link numero" href="#"><i
-									class="fa-solid fa-magnifying-glass me-2 d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block"></i></a>
+							<a class="nav-link numero" href="#">
+								<i
+									class="fa-solid fa-magnifying-glass me-2 mt-1 d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block"></i>
+							</a>
 						</li>
-						<li class="nav-item ms-2">
+						<li class="nav-item">
 							<a class="nav-link numero d-inline" href="https://www.whatsapp.com/?lang=es"
 								target="_blank">
-								<button class="btn btn-dark" type="button" id="demo">Demo</button>
+								<button class="btn btn-dark" type="button" id="demo">Solicitar Demo</button>
 							</a>
 							<a class="nav-link numero d-inline" href="#">
 								<button class="btn btn-dark me-2" type="button" id="login">Login</button>
@@ -97,13 +99,21 @@
 	<!-- Comienzo del Main -->
 	<!--=======================================-->
 	<main class="main">
-		<div class="container">
+		<div class="container spacing__main">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="row container__elementos">
 						<div class="col-md-6 d-flex align-items-center">
 							<div class="jumbotron animate__animated animate__zoomInRight">
-								<h1 class="pt-4">MANEJA Y ALOJA DOCUMENTOS</h1>
+								<h2 class="fw-bold h2titulos_left">
+									<br>
+									<strong>
+										<span>
+											MANEJA Y ALOJA <br> DOCUMENTOS
+										</span>
+									</strong>
+									<br>
+								</h2>
 								<p>
 									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aspernatur ea
 									aliquid illum, minus
@@ -115,7 +125,7 @@
 									<button class="btn btn-dark me-2" type="button" id="demo">Mirala en Acción</button>
 								</a>
 								<a class="nav-link numero d-inline" href="#">
-									<button class="btn btn-dark" type="button" id="login">Cotiza Ahora</button>
+									<button class="btn btn-dark" type="button" id="login">Cotizar</button>
 								</a>
 							</div>
 						</div>

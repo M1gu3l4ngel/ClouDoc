@@ -25,8 +25,8 @@
 	<!--=======================================-->
 	<!-- Comienzo del Header -->
 	<!--=======================================-->
-	<header>
-		<nav class="navbar navbar-expand-lg d-flex">
+	<header class="position-fixed left-0 top-0 w-100">
+		<nav class="navbar navbar-expand-lg d-flex position-static top-0 display-none ">
 			<div class="container">
 				<a class="navbar-brand me-5" href="#">
 					<img src="../assets/img/logonegro.svg" alt="Logo Principal" width="85" height="85" />
@@ -66,21 +66,21 @@
 							<a class="nav-link" href="../pages/equipo.html">Equipo</a>
 						</li>
 					</ul>
-					<div class="container d-flex justify-content-end navbar-nav align-items-center">
+					<div class="container d-flex justify-content-end navbar-nav align-items-start">
 						<li class="nav-item ms-2">
 							<a class="nav-link numero d-lg-none d-xl-block d-md-block d-md-none d-lg-block d-sm-none d-md-block d-none d-sm-block"
-								href="https://www.whatsapp.com/?lang=es" target="_blank">(+52) 999 553 5420</a>
+								href="https://www.whatsapp.com/?lang=es" target="_blank">(+52) 999 523 5420</a>
 						</li>
 						<li class="nav-item ms-2">
 							<a class="nav-link numero" href="#">
 								<i
-									class="fa-solid fa-magnifying-glass me-2 d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block"></i>
+									class="fa-solid fa-magnifying-glass me-2 mt-1 d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block"></i>
 							</a>
 						</li>
-						<li class="nav-item ms-2">
+						<li class="nav-item">
 							<a class="nav-link numero d-inline" href="https://www.whatsapp.com/?lang=es"
 								target="_blank">
-								<button class="btn btn-dark" type="button" id="demo">Demo</button>
+								<button class="btn btn-dark" type="button" id="demo">Solicitar Demo</button>
 							</a>
 							<a class="nav-link numero d-inline" href="#">
 								<button class="btn btn-dark me-2" type="button" id="login">Login</button>
@@ -98,149 +98,162 @@
 	<!--=======================================-->
 	<!-- Comienzo del Main -->
 	<!--=======================================-->
-	<main class="container-fluid mt-5">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 mtt">
-					<h2 class="text-center mt-1">CONTÁCTANOS</h2>
-					<div class="row">
-						<div class="col-md-12">
-							<p class="text-center mb-4">
-								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint quae repudiandae incidunt
-								fugit minus tenetur numquam
-								animi nostrum. Autem, odio!
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Contenido -->
-			<div class="container-fluid">
+	<main class="container">
+		<div class="row container__sp100">
+			<div class="col-md-12 card__info">
+				<h2 class="fw-bold h2titulos__center">
+					<br>
+					<strong>
+						<span>
+							CONTÁCTANOS
+						</span>
+					</strong>
+					<br>
+				</h2>
 				<div class="row">
 					<div class="col-md-12">
-						<div class="row">
-							<div class="col-md-6">
-								<h4>Como podemos ayudarte:</h4>
-								<dl class="mb-5 tituloslista">
-									<dt>Revisa nuestra plataforma en acción</dt>
-									<dd>
-										Solicite una demostración personalizada o
-										<a href="#" class="card-link linkbold">solicite una prueba</a>
-										de la plataforma de oficial de ClouDoc y conoce su funcionalidad.
-									</dd>
-									<dt class="mt-4">Domine el manejo y alojamiento de documentación</dt>
-									<dd>
-										Desde
-										<a href="#" class="card-link linkbold">los cursos de ClouDoc</a>
-										hasta la
-										<a href="#" class="card-link linkbold">documentación</a>, aprenda cómo hacer el
-										manejo responsable de facturas,
-										la integración del personal y el alojamiento seguro de tus documentos.
-									</dd>
-									<dt class="mt-4">Explore la vida en ClouDoc</dt>
-									<dd>
-										Busque
-										<a href="#" class="card-link linkbold">puestos</a>
-										vacantes, lea sobre la cultura y los valores de la empresa y explore nuestras
-										iniciativas benéficas.
-									</dd>
-								</dl>
-								<h4>Vías de contacto</h4>
-								<dl class="mb-5 tituloslista">
-									<dt>Estados Unidos | ClouDoc</dt>
-									<dd>
-										11300 McCormick Rd, EP II, Suite 400
+						<p class="text-center parrafos_grey18">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nam, explicabo soluta
+							illo rerum consectetur! Sapiente
+							placeat eveniet dolorem architecto, optio velit, libero alias similique delectus,
+							dolorum quaerat dignissimos
+							repudiandae earum reprehenderit? Impedit molestias consequuntur minima dolores.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Contenido -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-6">
+							<h4>
+								Como podemos ayudarte:
+							</h4>
+							<dl class="mb-5 titulos__lista">
+								<dt>
+									Revisa nuestra plataforma en acción
+								</dt>
+								<dd>
+									Solicite una demostración personalizada o
+									<a href="#" class="card-link link_bold">solicite una prueba</a>
+									de la plataforma de oficial de ClouDoc y conoce su funcionalidad.
+								</dd>
+								<dt class="mt-4">Domine el manejo y alojamiento de documentación</dt>
+								<dd>
+									Desde
+									<a href="#" class="card-link link_bold">los cursos de ClouDoc</a>
+									hasta la
+									<a href="#" class="card-link link_bold">documentación</a>, aprenda cómo hacer el
+									manejo responsable de facturas,
+									la integración del personal y el alojamiento seguro de tus documentos.
+								</dd>
+								<dt class="mt-4">Explore la vida en ClouDoc</dt>
+								<dd>
+									Busque
+									<a href="#" class="card-link link_bold">puestos</a>
+									vacantes, lea sobre la cultura y los valores de la empresa y explore nuestras
+									iniciativas benéficas.
+								</dd>
+							</dl>
+							<h4>Vías de contacto</h4>
+							<dl class="mb-5 titulos__lista">
+								<dt>Estados Unidos | ClouDoc</dt>
+								<dd>
+									11300 McCormick Rd, EP II, Suite 400
+									<br />
+									Hunt Valley, MD 21035
+								</dd>
+								<dt class="mt-4">Información y Ventas</dt>
+								<dd>
+									<a href="#" class="card-link link_bold">info@cloudoc.com</a>
+								</dd>
+								<dt class="mt-4">Soporte</dt>
+								<dd>
+									<a href="#" class="card-link link_bold ">soporte@cloudoc.com</a>
+								</dd>
+								<dt class="mt-4">Verificación de Empleo</dt>
+								<dd>
+									<a href="#" class="card-link link_bold ">empleos@cloudoc.com</a>
+								</dd>
+							</dl>
+							<h4>Ubicaciones de oficinas adicionales</h4>
+							<dl class="mb-5 titulos__lista">
+								<dt>México</dt>
+								<dd>Mérida. 250, Yucatán, 2. MX, 97306</dd>
+							</dl>
+						</div>
+						<div class="col-md-6">
+							<h6 class="text-left mb-3">Por favor, todos los campos son obligatorios.</h6>
+							<form role="form">
+								<div class="form-group mb-3">
+									<label for="nombre"> Primer nombre </label>
+									<input type="text" class="form-control" id="nombre" required />
+								</div>
+								<div class="form-group mb-3">
+									<label for="apellido"> Apellido </label>
+									<input type="text" class="form-control" id="apellido" required />
+								</div>
+								<div class="form-group mb-3">
+									<label for="empresa"> Nombre de Empresa </label>
+									<input type="text" class="form-control" id="empresa" required />
+								</div>
+								<div class="form-group mb-3">
+									<label for="empresamail"> Email de Empresa </label>
+									<input type="email" class="form-control" id="empresamail" required />
+								</div>
+								<div class="form-group mb-3">
+									<label for="pais"> País: </label>
+									<select class="form-select mb-3" aria-label="Default select example">
+										<option selected>Seleccione:</option>
+										<option value="1">Venezuela</option>
+										<option value="3">México</option>
+										<option value="2">Argentina</option>
+										<option value="3">Chile</option>
+										<option value="3">Peru</option>
+										<option value="3">Colombia</option>
+										<option value="3">Uruguay</option>
+										<option value="3">Brasil</option>
+										<option value="3">Estados Unidos</option>
+										<option value="3">Canadá</option>
+									</select>
+								</div>
+								<div class="form-group mb-3">
+									<label for="negocio"> Tipo de Negocio: </label>
+									<select class="form-select mb-3" aria-label="Default select example">
+										<option selected>Seleccione:</option>
+										<option value="1">Empresa</option>
+										<option value="3">Independiente</option>
+										<option value="2">Organización</option>
+										<option value="3">Otro</option>
+									</select>
+								</div>
+								<div class="mb-3">
+									<label for="exampleFormControlTextarea1" class="form-label">Example
+										textarea</label>
+									<textarea class="form-control" id="exampleFormControlTextarea1"
+										rows="3"> </textarea>
+								</div>
+								<div class="checkbox mb-4">
+									<label>
+										<input type="checkbox" /> Me gustaría recibir más información sobre ClouDoc;
+										Entiendo y acepto
 										<br />
-										Hunt Valley, MD 21035
-									</dd>
-									<dt class="mt-4">Información y Ventas</dt>
-									<dd>
-										<a href="#" class="card-link linkbold linkservicios">info@cloudoc.com</a>
-									</dd>
-									<dt class="mt-4">Soporte</dt>
-									<dd>
-										<a href="#" class="card-link linkbold linkservicios">soporte@cloudoc.com</a>
-									</dd>
-									<dt class="mt-4">Verificación de Empleo</dt>
-									<dd>
-										<a href="#" class="card-link linkbold linkservicios">empleos@cloudoc.com</a>
-									</dd>
-								</dl>
-								<h4>Ubicaciones de oficinas adicionales</h4>
-								<dl class="mb-5 tituloslista">
-									<dt>México</dt>
-									<dd>Mérida. 250, Yucatán, 2. MX, 97306</dd>
-								</dl>
-							</div>
-							<div class="col-md-6">
-								<h6 class="text-left mb-3">Por favor, todos los campos son obligatorios.</h6>
-								<form role="form">
-									<div class="form-group mb-3">
-										<label for="nombre"> Primer nombre </label>
-										<input type="text" class="form-control" id="nombre" required />
-									</div>
-									<div class="form-group mb-3">
-										<label for="apellido"> Apellido </label>
-										<input type="text" class="form-control" id="apellido" required />
-									</div>
-									<div class="form-group mb-3">
-										<label for="empresa"> Nombre de Empresa </label>
-										<input type="text" class="form-control" id="empresa" required />
-									</div>
-									<div class="form-group mb-3">
-										<label for="empresamail"> Email de Empresa </label>
-										<input type="email" class="form-control" id="empresamail" required />
-									</div>
-									<div class="form-group mb-3">
-										<label for="pais"> País: </label>
-										<select class="form-select mb-3" aria-label="Default select example">
-											<option selected>Seleccione:</option>
-											<option value="1">Venezuela</option>
-											<option value="3">México</option>
-											<option value="2">Argentina</option>
-											<option value="3">Chile</option>
-											<option value="3">Peru</option>
-											<option value="3">Colombia</option>
-											<option value="3">Uruguay</option>
-											<option value="3">Brasil</option>
-											<option value="3">Estados Unidos</option>
-											<option value="3">Canadá</option>
-										</select>
-									</div>
-									<div class="form-group mb-3">
-										<label for="negocio"> Tipo de Negocio: </label>
-										<select class="form-select mb-3" aria-label="Default select example">
-											<option selected>Seleccione:</option>
-											<option value="1">Empresa</option>
-											<option value="3">Independiente</option>
-											<option value="2">Organización</option>
-											<option value="3">Otro</option>
-										</select>
-									</div>
-									<div class="mb-3">
-										<label for="exampleFormControlTextarea1" class="form-label">Example
-											textarea</label>
-										<textarea class="form-control" id="exampleFormControlTextarea1"
-											rows="3"> </textarea>
-									</div>
-									<div class="checkbox mb-4">
-										<label>
-											<input type="checkbox" /> Me gustaría recibir más información sobre ClouDoc;
-											Entiendo y acepto
-											<br />
-											la
-											<a href="#" class="card-link linkbold">politica de privacidad.</a>
-										</label>
-									</div>
-									<div class="d-grid gap-2">
-										<button class="btn btn-primary" type="button" id="login">ENVIAR MENSAJE</button>
-									</div>
-								</form>
-							</div>
+										la
+										<a href="#" class="card-link link_bold">politica de privacidad.</a>
+									</label>
+								</div>
+								<div class="d-grid gap-2">
+									<button class="btn btn-primary" type="button" id="login">ENVIAR MENSAJE</button>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 		</div>
 	</main>
 	<!--=======================================-->

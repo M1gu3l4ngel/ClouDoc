@@ -8,6 +8,14 @@
 /* Comienzo del Header */
 /*--=======================================*/
 
+header {
+	z-index: 666;
+}
+
+.spacing__main {
+	margin-top: 111px;
+}
+
 .navbar {
 	background-color: #f5f5f5;
 }
@@ -46,12 +54,8 @@
 /*--=======================================*/
 
 /*--=======================================*/
-/* Comienzo del Main */
+/* Comienzo del Main - Index */
 /*--=======================================*/
-
-.imgmain {
-	margin-top: 50px;
-}
 
 .jumbotron h1 {
 	font-size: 2.7rem;
@@ -59,6 +63,7 @@
 
 .jumbotron p {
 	font-size: 1.2rem;
+	color: #555555;
 }
 
 .container__elementos {
@@ -67,26 +72,30 @@
 }
 
 /*--=======================================*/
-/* Final del Main */
+/* Final del Main - Index */
 /*--=======================================*/
 
 /*--=======================================*/
 /* Comienzo del Main - ClouDoc */
 /*--=======================================*/
 
-.mtt {
-	margin-bottom: 30px;
-}
-
-.sizing {
+.card__sizing {
 	padding: 10px;
 	align-items: center;
 }
 
-.icon {
+.card__icon {
 	font-size: 50px;
 	margin-bottom: 20px;
 	color: #4010c5;
+}
+
+.card-cloudoc {
+	margin-bottom: 31px;
+}
+
+.spacing__card {
+	margin-top: 30px;
 }
 
 /*--=======================================*/
@@ -97,29 +106,30 @@
 /* Comienzo del Main - Contacto */
 /*--=======================================*/
 
+.container__sp100 {
+	margin-top: 100px;
+}
+
 .col-md-6 h4 {
 	margin-bottom: 30px;
 }
 
-.linkbold {
+.link_bold {
 	text-decoration: none;
 	font-weight: 500;
 	color: #4010c5;
 }
 
-.linkbold:hover {
+.link_bold:hover {
 	text-decoration: none;
 	font-weight: 500;
 	color: #000000;
 }
 
-.tituloslista dt {
+.titulos__lista dt {
 	font-weight: 500;
 }
 
-.linkservicios {
-	font-size: 15px;
-}
 
 /*--=======================================*/
 /* Final del Main - Contacto */
@@ -130,68 +140,81 @@
 /* Comienzo del Main - Soluciones */
 /*--=======================================*/
 
-.infosizing {
+.container__width {
 	width: 610px;
 }
 
-.infosizing h6 {
+.container__width h6 {
 	font-size: 14px;
 }
 
-.infosizing h1 {
-	font-size: 44px;
-}
-
-.infosizing p {
+.container__width p {
 	font-size: 20px;
 }
 
-.colorcontainer {
+.color__container1 {
 	background-color: #4010c5;
 }
 
-.containersoluciones {
+.div__aligncenter {
 	text-align: center;
 }
 
-.divsoluciones {
-	text-align: center;
-}
-
-.h1soluciones {
+.h2titulos__center {
 	text-align: center;
 	font-size: 44px;
 }
 
-.parrafosoluciones {
+.h2titulos_left {
+	text-align: left;
+	font-size: 44px;
+}
+
+.parrafos_grey18 {
 	font-size: 18px;
 	color: #555555;
 }
 
-.parrafosolucionesmini {
+.parrafos__white18 {
+	font-size: 18px;
+	color: #ffffff;
+}
+
+.parrafos_grey18mini {
 	font-size: 14px;
 	color: #555555;
 }
 
-.asoluciones {
+.links__arrow {
 	font-size: 18px;
+	color: #4010c5;
 }
 
-.imgsoluciones {
+.links__arrow:hover {
+	font-size: 18px;
+	color: #000000;
+}
+
+.img_soluciones {
 	min-height: 250px;
 }
 
+.h2__infos {
+	font-size: 44px;
+}
 
+.div1 {
+	max-width: 350px;
+}
 
+.container__stats {
+	background-color: #4010c5;
+	color: #ffffff;
+}
 
-
-
-
-
-
-
-
-
+.h2__stats {
+	font-size: 24px;
+}
 
 /*--=======================================*/
 /* Final del Main - Soluciones */
