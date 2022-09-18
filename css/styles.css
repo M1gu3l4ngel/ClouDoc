@@ -23,6 +23,7 @@ header {
 #demo {
 	background-color: #000000;
 	border-style: none;
+	color: #f5f5f5;
 }
 
 #demo:hover {
@@ -47,6 +48,10 @@ header {
 .dropdown-item:hover {
 	background-color: #4010c5;
 	color: #f5f5f5;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
 }
 
 /*--=======================================*/
@@ -233,10 +238,43 @@ header {
 	text-align: center;
 }
 
+.bordercard {
+	border-color: #4010c5;
+}
+
+.pillcolor {
+	background-color: #4010c5;
+}
+
 /*--=======================================*/
 /* Final de Servicios */
 /*--=======================================*/
 
+/*--=======================================*/
+/* Comienzo de Equipo */
+/*--=======================================*/
+
+.h5color {
+	color: #4010c5;
+}
+
+.text {
+	color: #4010c5;
+}
+
+.icon__grey {
+	font-size: 1.12rem;
+	color: #555555;
+}
+
+.icon__grey:hover {
+	font-size: 1.12rem;
+	color: #4010c5;
+}
+
+/*--=======================================*/
+/* Final de Equipo */
+/*--=======================================*/
 
 /*--=======================================*/
 /* Comienzo del Footer */
