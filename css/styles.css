@@ -103,6 +103,10 @@ header {
 	margin-top: 30px;
 }
 
+.mtop {
+	margin-top: 27px;
+}
+
 /*--=======================================*/
 /* Final del Main - ClouDoc */
 /*--=======================================*/
@@ -305,3 +309,47 @@ header {
 /*--=======================================*/
 /* Final del Footer */
 /*--=======================================*/
+
+
+/*--=======================================*/
+/* MEDIA QUERYS */
+/*--=======================================*/
+
+@media screen and (max-width: 576px) {
+	.h2titulos_left {
+		font-size: 1.5rem;
+	}
+
+	#font {
+		font-size: 1rem;
+	}
+
+	.h2titulos__center {
+		font-size: 1.5rem;
+	}
+
+	.parrafos_grey18 {
+		font-size: 1rem;
+	}
+
+	.container__elementos {
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.imgmain {
+		margin-top: 30px;
+	}
+
+	.h2__infos {
+		font-size: 1.5rem;
+	}
+
+	#parrafos__white16 {
+		font-size: 1rem;
+	}
+
+	.container__width h6 {
+		font-size: 0.80rem;
+	}
+}
