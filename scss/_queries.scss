@@ -1,20 +1,18 @@
 @media screen and (max-width: 576px) {
 
     /*===== Inicio / Index =====*/
-    #h2titulos_left {
-        font-size: 1.5rem;
-    }
+    .spacing__main {
+        .cont1__main {
+            span {
+                font-size: 2.5rem;
+            }
 
-    #font {
-        font-size: 1rem;
-    }
-
-    .imgmain {
-        margin-top: 30px;
-    }
-
-    #parrafos__white16 {
-        font-size: 1rem;
+            .jumbotron {
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
     }
 
     /*===== ClouDoc =====*/
@@ -205,6 +203,14 @@
             p {
                 font-size: 1rem;
                 color: $grisobscuro;
+            }
+        }
+    }
+
+    .cont1 {
+        .cont1__color {
+            h2 {
+                font-size: 1.5rem;
             }
         }
     }
