@@ -1,0 +1,44 @@
+.equipomain {
+    .cont__titulo {
+        margin-top: 100px;
+        text-align: center;
+        margin-bottom: 50px;
+
+        h2 {
+            font-size: 2.75rem;
+        }
+
+        p {
+            font-size: 1.12rem;
+            color: $grisobscuro;
+        }
+    }
+
+    .cont1 {
+        .cont1__color {
+            background-color: $morado;
+        }
+        .contbtn {
+            color: $morado;
+        }        
+    }
+
+    .cont2 {
+        h5 {
+            color: $morado;
+        }
+
+        .icons {
+            li {
+                a {
+                    font-size: 20px;
+                    color: $grisobscuro;
+
+                    &:hover {
+                        color: $morado;
+                    }
+                }
+            }
+        }
+    }
+}

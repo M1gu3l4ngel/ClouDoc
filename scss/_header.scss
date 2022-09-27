@@ -1,0 +1,44 @@
+header {
+    z-index: 666;
+
+    .navbar {
+        background-color: $grisclaro;
+
+        #demo {
+            background-color: $negro;
+            border-style: none;
+            color: $grisclaro;
+
+            &:hover {
+                background-color: $morado;
+                border-style: none;
+            }
+        }
+
+        #login {
+            background-color: $morado;
+            border-style: none;
+
+            &:hover {
+                background-color: $negro;
+                border-style: none;
+            }
+        }
+
+        .numero {
+            font-weight: bold;
+        }
+
+        .dropdown-item {
+            &:hover {
+                background-color: $morado;
+                color: $grisclaro;
+            }
+        }
+
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+    }
+}

@@ -1,0 +1,176 @@
+.solucionesmain {
+    .cont__titulo {
+        margin-top: 100px;
+        text-align: center;
+        margin-bottom: 50px;
+
+        h2 {
+            font-size: 2.75rem;
+        }
+
+        p {
+            font-size: 1.12rem;
+            color: $grisobscuro;
+        }
+    }
+
+    .cont1 {
+        .bgcolor {
+            background-color: $morado;
+            text-align: right;
+        }
+
+        .cont1__info {
+            width: 610px;
+            text-align: left;
+
+            h6 {
+                font-size: 0.87rem;
+            }
+
+            h2 {
+                font-size: 44px;
+            }
+
+            p {
+                font-size: 1.25rem;
+            }
+        }
+    }
+
+    .btncont1 {
+        a {
+            color: $morado;
+        }
+    }
+
+    .cont2 {
+        text-align: center;
+
+        h2 {
+            font-size: 2.75rem;
+        }
+
+        p {
+            font-size: 1.12rem;
+            color: $grisobscuro;
+        }
+
+        .links__arrow {
+            font-size: 1.12rem;
+            color: $morado;
+            text-decoration: none;
+
+            &:hover {
+                color: $negro;
+            }
+        }
+    }
+
+    .cont3 {
+        .cont__info {
+            h2 {
+                font-size: 2.75rem;
+            }
+
+            p {
+                font-size: 1.12rem;
+                color: $grisobscuro;
+            }
+
+            .links__arrow {
+                font-size: 1.12rem;
+                color: $morado;
+                text-decoration: none;
+
+                &:hover {
+                    color: $negro;
+                }
+            }
+        }
+    }
+
+    .cont4 {
+        background-color: $morado;
+
+        .cont4info {
+            h2 {
+                font-size: 2.75rem;
+            }
+
+            p {
+                font-size: 1.12rem;
+            }
+        }
+    }
+
+    .cont5 {
+        .cont5info {
+            h2 {
+                font-size: 2.75rem;
+            }
+
+            p {
+                font-size: 1.12rem;
+                color: $grisobscuro;
+            }
+
+            .links__arrow {
+                font-size: 1.12rem;
+                color: $morado;
+                text-decoration: none;
+
+                &:hover {
+                    color: $negro;
+                }
+            }
+        }
+    }
+
+    .cont6 {
+        text-align: center;
+
+        h2 {
+            font-size: 2.75rem;
+        }
+
+        p {
+            font-size: 1.12rem;
+            color: $grisobscuro;
+        }
+    }
+
+    .cont7 {
+        .cont7__stats {
+            background-color: $morado;
+            color: $grisclaro;
+        }
+
+        .stats__info {
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .cont8 {
+        text-align: center;
+
+        #demo {
+            border: none;
+            background-color: $negro;
+            &:hover {
+                background-color: $morado;
+            }
+        }
+
+        .cont8__parrafo {
+            font-size: 0.87rem;
+            color: $grisobscuro;
+        }
+    }
+}

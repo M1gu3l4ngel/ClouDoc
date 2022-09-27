@@ -1,0 +1,37 @@
+.main {
+    margin-top: 148px;
+    margin-bottom: 100px;
+
+    .spacing__main {
+        margin-top: 110px;
+
+        .jumbotron {
+            h2 {
+                font-size: 2.75rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+                color: $grisobscuro
+            }
+
+            #demo {
+                border: none;
+                background-color: $negro;
+
+                &:hover {
+                    background-color: $morado;
+                }
+            }
+
+            #login {
+                border: none;
+                background-color: $morado;
+
+                &:hover {
+                    background-color: $negro;
+                }
+            }
+        }
+    }
+}

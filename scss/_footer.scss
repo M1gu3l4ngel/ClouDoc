@@ -1,0 +1,21 @@
+#footer {
+    margin-top: 50px;
+
+    .section__footer {
+        padding: 1px;
+        background-color: $morado;
+        color: $grisclaro;
+
+        .btnfooter {
+            font-size: 1.56rem;
+
+            &:hover {
+                color: $negro
+            }
+        }
+    }
+
+    .copyright {
+        color: $grisclaro;
+    }
+}

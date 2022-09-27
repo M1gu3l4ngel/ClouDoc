@@ -1,0 +1,623 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  z-index: 666;
+}
+
+header .navbar {
+  background-color: #f5f5f5;
+}
+
+header .navbar #demo {
+  background-color: #000000;
+  border-style: none;
+  color: #f5f5f5;
+}
+
+header .navbar #demo:hover {
+  background-color: #4010c5;
+  border-style: none;
+}
+
+header .navbar #login {
+  background-color: #4010c5;
+  border-style: none;
+}
+
+header .navbar #login:hover {
+  background-color: #000000;
+  border-style: none;
+}
+
+header .navbar .numero {
+  font-weight: bold;
+}
+
+header .navbar .dropdown-item:hover {
+  background-color: #4010c5;
+  color: #f5f5f5;
+}
+
+header .navbar .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.main {
+  margin-top: 148px;
+  margin-bottom: 100px;
+}
+
+.main .spacing__main {
+  margin-top: 110px;
+}
+
+.main .spacing__main .jumbotron h2 {
+  font-size: 2.75rem;
+}
+
+.main .spacing__main .jumbotron p {
+  font-size: 1.2rem;
+  color: #555555;
+}
+
+.main .spacing__main .jumbotron #demo {
+  border: none;
+  background-color: #000000;
+}
+
+.main .spacing__main .jumbotron #demo:hover {
+  background-color: #4010c5;
+}
+
+.main .spacing__main .jumbotron #login {
+  border: none;
+  background-color: #4010c5;
+}
+
+.main .spacing__main .jumbotron #login:hover {
+  background-color: #000000;
+}
+
+.cloudocmain {
+  overflow-y: hidden;
+}
+
+.cloudocmain .cont__titulo {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.cloudocmain .cont__titulo h2 {
+  font-size: 2.75rem;
+}
+
+.cloudocmain .cont__titulo p {
+  font-size: 1.12rem;
+  color: #555555;
+}
+
+.cloudocmain .cont__titulo .cont {
+  margin-top: 27px;
+}
+
+.cloudocmain .cont__titulo .cont .spacing__card {
+  margin-top: 30px;
+}
+
+.cloudocmain .cont__titulo .cont .spacing__card .card__sizing {
+  padding: 10px;
+  align-items: center;
+}
+
+.cloudocmain .card__icon {
+  font-size: 3.20rem;
+  margin-bottom: 20px;
+  color: #4010c5;
+}
+
+.cloudocmain .card-cloudoc {
+  margin-bottom: 40px;
+  margin-top: 12px;
+}
+
+.cloudocmain .p__color p {
+  color: #555555;
+}
+
+.contactmain .card__info {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contactmain .card__info h2 {
+  font-size: 2.75rem;
+}
+
+.contactmain .card__info p {
+  font-size: 1.12rem;
+  color: #555555;
+}
+
+.contactmain .link_bold {
+  text-decoration: none;
+  color: #4010c5;
+}
+
+.contactmain .link_bold:hover {
+  color: #000000;
+}
+
+.contactmain #login {
+  border: none;
+  background-color: #4010c5;
+}
+
+.contactmain #login:hover {
+  background-color: #000000;
+}
+
+.contactmain .bg-badge {
+  background-color: #4010c5;
+  color: #f5f5f5;
+}
+
+.solucionesmain .cont__titulo {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.solucionesmain .cont__titulo h2 {
+  font-size: 2.75rem;
+}
+
+.solucionesmain .cont__titulo p {
+  font-size: 1.12rem;
+  color: #555555;
+}
+
+.solucionesmain .cont1 .bgcolor {
+  background-color: #4010c5;
+  text-align: right;
+}
+
+.solucionesmain .cont1 .cont1__info {
+  width: 610px;
+  text-align: left;
+}
+
+.solucionesmain .cont1 .cont1__info h6 {
+  font-size: 0.87rem;
+}
+
+.solucionesmain .cont1 .cont1__info h2 {
+  font-size: 44px;
+}
+
+.solucionesmain .cont1 .cont1__info p {
+  font-size: 1.25rem;
+}
+
+.solucionesmain .btncont1 a {
+  color: #4010c5;
+}
+
+.solucionesmain .cont2 {
+  text-align: center;
+}
+
+.solucionesmain .cont2 h2 {
+  font-size: 2.75rem;
+}
+
+.solucionesmain .cont2 p {
+  font-size: 1.12rem;
+  color: #555555;
+}
+
+.solucionesmain .cont2 .links__arrow {
+  font-size: 1.12rem;
+  color: #4010c5;
+  text-decoration: none;
+}
+
+.solucionesmain .cont2 .links__arrow:hover {
+  color: #000000;
+}
+
+.solucionesmain .cont3 .cont__info h2 {
+  font-size: 2.75rem;
+}
+
+.solucionesmain .cont3 .cont__info p {
+  font-size: 1.12rem;
+  color: #555555;
+}
+
+.solucionesmain .cont3 .cont__info .links__arrow {
+  font-size: 1.12rem;
+  color: #4010c5;
+  text-decoration: none;
+}
+
+.solucionesmain .cont3 .cont__info .links__arrow:hover {
+  color: #000000;
+}
+
+.solucionesmain .cont4 {
+  background-color: #4010c5;
+}
+
+.solucionesmain .cont4 .cont4info h2 {
+  font-size: 2.75rem;
+}
+
+.solucionesmain .cont4 .cont4info p {
+  font-size: 1.12rem;
+}
+
+.solucionesmain .cont5 .cont5info h2 {
+  font-size: 2.75rem;
+}
+
+.solucionesmain .cont5 .cont5info p {
+  font-size: 1.12rem;
+  color: #555555;
+}
+
+.solucionesmain .cont5 .cont5info .links__arrow {
+  font-size: 1.12rem;
+  color: #4010c5;
+  text-decoration: none;
+}
+
+.solucionesmain .cont5 .cont5info .links__arrow:hover {
+  color: #000000;
+}
+
+.solucionesmain .cont6 {
+  text-align: center;
+}
+
+.solucionesmain .cont6 h2 {
+  font-size: 2.75rem;
+}
+
+.solucionesmain .cont6 p {
+  font-size: 1.12rem;
+  color: #555555;
+}
+
+.solucionesmain .cont7 .cont7__stats {
+  background-color: #4010c5;
+  color: #f5f5f5;
+}
+
+.solucionesmain .cont7 .stats__info h2 {
+  font-size: 1.5rem;
+}
+
+.solucionesmain .cont7 .stats__info p {
+  font-size: 1rem;
+}
+
+.solucionesmain .cont8 {
+  text-align: center;
+}
+
+.solucionesmain .cont8 #demo {
+  border: none;
+  background-color: #000000;
+}
+
+.solucionesmain .cont8 #demo:hover {
+  background-color: #4010c5;
+}
+
+.solucionesmain .cont8 .cont8__parrafo {
+  font-size: 0.87rem;
+  color: #555555;
+}
+
+.serviciosmain .cont__titulo {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.serviciosmain .cont__titulo h2 {
+  font-size: 2.75rem;
+}
+
+.serviciosmain .cont__titulo p {
+  font-size: 1.12rem;
+  color: #555555;
+}
+
+.serviciosmain .cont1 .cards i {
+  font-size: 50px;
+  color: #4010c5;
+  margin-bottom: 10px;
+}
+
+.serviciosmain .cont1 .cards p {
+  color: #555555;
+}
+
+.serviciosmain .cont2 .cont2__titulo {
+  text-align: center;
+}
+
+.serviciosmain .cont2 .cont2__titulo h2 {
+  font-size: 2.75rem;
+}
+
+.serviciosmain .cont2 .cont2__titulo p {
+  font-size: 1.12rem;
+  color: #555555;
+}
+
+.serviciosmain .card1 #login {
+  border: none;
+  background-color: #4010c5;
+}
+
+.serviciosmain .card1 #login:hover {
+  background-color: #000000;
+}
+
+.serviciosmain .card2 .bordercard {
+  border-color: #4010c5;
+}
+
+.serviciosmain .card2 .bordercard .pillcolor {
+  background-color: #4010c5;
+}
+
+.serviciosmain .card2 .bordercard #login {
+  border: none;
+  background-color: #4010c5;
+}
+
+.serviciosmain .card2 .bordercard #login:hover {
+  background-color: #000000;
+}
+
+.serviciosmain .card3 #login {
+  border: none;
+  background-color: #4010c5;
+}
+
+.serviciosmain .card3 #login:hover {
+  background-color: #000000;
+}
+
+.serviciosmain .cont3 .cont3__info {
+  background-color: #4010c5;
+}
+
+.serviciosmain .cont3 .contbtn button {
+  background-color: #000000;
+  color: #f5f5f5;
+}
+
+.serviciosmain .cont3 .contbtn button:hover {
+  background-color: #4010c5;
+}
+
+.equipomain .cont__titulo {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.equipomain .cont__titulo h2 {
+  font-size: 2.75rem;
+}
+
+.equipomain .cont__titulo p {
+  font-size: 1.12rem;
+  color: #555555;
+}
+
+.equipomain .cont1 .cont1__color {
+  background-color: #4010c5;
+}
+
+.equipomain .cont1 .contbtn {
+  color: #4010c5;
+}
+
+.equipomain .cont2 h5 {
+  color: #4010c5;
+}
+
+.equipomain .cont2 .icons li a {
+  font-size: 20px;
+  color: #555555;
+}
+
+.equipomain .cont2 .icons li a:hover {
+  color: #4010c5;
+}
+
+#footer {
+  margin-top: 50px;
+}
+
+#footer .section__footer {
+  padding: 1px;
+  background-color: #4010c5;
+  color: #f5f5f5;
+}
+
+#footer .section__footer .btnfooter {
+  font-size: 1.56rem;
+}
+
+#footer .section__footer .btnfooter:hover {
+  color: #000000;
+}
+
+#footer .copyright {
+  color: #f5f5f5;
+}
+
+@media screen and (max-width: 576px) {
+
+  /*===== Inicio / Index =====*/
+  #h2titulos_left {
+    font-size: 1.5rem;
+  }
+
+  #font {
+    font-size: 1rem;
+  }
+
+  .imgmain {
+    margin-top: 30px;
+  }
+
+  #parrafos__white16 {
+    font-size: 1rem;
+  }
+
+  /*===== ClouDoc =====*/
+  .cloudocmain .cont__titulo h2 {
+    font-size: 1.5rem;
+  }
+
+  .cloudocmain .cont__titulo p {
+    font-size: 1rem;
+  }
+
+  /*===== Contacto =====*/
+  .contactmain .card__info h2 {
+    font-size: 1.5rem;
+  }
+
+  .contactmain .card__info p {
+    font-size: 1rem;
+  }
+
+  /*===== Soluciones =====*/
+  .solucionesmain .cont__titulo h2 {
+    font-size: 1.5rem;
+  }
+
+  .solucionesmain .cont__titulo p {
+    font-size: 1rem;
+  }
+
+  .solucionesmain .cont1 .cont1__info h6 {
+    font-size: 0.8rem;
+  }
+
+  .solucionesmain .cont1 .cont1__info h2 {
+    font-size: 1.5rem;
+  }
+
+  .solucionesmain .cont2 .cont2__titulo h2 {
+    font-size: 1.5rem;
+  }
+
+  .solucionesmain .cont2 .cont2__titulo p {
+    font-size: 1rem;
+    color: #555555;
+  }
+
+  .solucionesmain .cont2 .cont2__titulo .links__arrow {
+    font-size: 0.938rem;
+  }
+
+  .solucionesmain .cont3 .cont__info h2 {
+    font-size: 1.5rem;
+  }
+
+  .solucionesmain .cont3 .cont__info p {
+    font-size: 1rem;
+    color: #555555;
+  }
+
+  .solucionesmain .cont3 .cont__info .links__arrow {
+    font-size: 0.938rem;
+  }
+
+  .solucionesmain .cont4 .cont4info h2 {
+    font-size: 1.5rem;
+  }
+
+  .solucionesmain .cont4 .cont4info p {
+    font-size: 1rem;
+  }
+
+  .solucionesmain .cont5 .cont5info h2 {
+    font-size: 1.5rem;
+  }
+
+  .solucionesmain .cont5 .cont5info p {
+    font-size: 1rem;
+    color: #555555;
+  }
+
+  .solucionesmain .cont5 .cont5info .links__arrow {
+    font-size: 0.938rem;
+  }
+
+  .solucionesmain .cont6 h2 {
+    font-size: 1.5rem;
+  }
+
+  .solucionesmain .cont6 p {
+    font-size: 1rem;
+    color: #555555;
+  }
+
+  .solucionesmain .cont7 .stats__info h2 {
+    font-size: 1rem;
+  }
+
+  .solucionesmain .cont7 .stats__info p {
+    font-size: 0.875rem;
+  }
+
+  /*===== Servicios =====*/
+  .serviciosmain .cont__titulo h2 {
+    font-size: 1.5rem;
+  }
+
+  .serviciosmain .cont__titulo p {
+    font-size: 1rem;
+    color: #555555;
+  }
+
+  .serviciosmain .cont1 .card-space p {
+    font-size: 1rem;
+    color: #555555;
+  }
+
+  .serviciosmain .cont2 .cont2__titulo h2 {
+    font-size: 1.5rem;
+  }
+
+  .serviciosmain .cont2 .cont2__titulo p {
+    font-size: 1rem;
+    color: #555555;
+  }
+
+  /*===== Equipo =====*/
+  .equipomain .cont__titulo h2 {
+    font-size: 1.5rem;
+  }
+
+  .equipomain .cont__titulo p {
+    font-size: 1rem;
+    color: #555555;
+  }
+}

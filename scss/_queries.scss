@@ -1,0 +1,211 @@
+@media screen and (max-width: 576px) {
+
+    /*===== Inicio / Index =====*/
+    #h2titulos_left {
+        font-size: 1.5rem;
+    }
+
+    #font {
+        font-size: 1rem;
+    }
+
+    .imgmain {
+        margin-top: 30px;
+    }
+
+    #parrafos__white16 {
+        font-size: 1rem;
+    }
+
+    /*===== ClouDoc =====*/
+
+    .cloudocmain {
+        .cont__titulo {
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    /*===== Contacto =====*/
+
+    .contactmain {
+        .card__info {
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    /*===== Soluciones =====*/
+
+    .solucionesmain {
+        .cont__titulo {
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+
+        .cont1 {
+            .cont1__info {
+                h6 {
+                    font-size: 0.8rem;
+                }
+
+                h2 {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        .cont2 {
+            .cont2__titulo {
+                h2 {
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                    color: $grisobscuro;
+                }
+
+                .links__arrow {
+                    font-size: 0.938rem;
+                }
+            }
+        }
+
+        .cont3 {
+            .cont__info {
+                h2 {
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                    color: $grisobscuro;
+                }
+
+                .links__arrow {
+                    font-size: 0.938rem;
+                }
+            }
+        }
+
+        .cont4 {
+            .cont4info {
+                h2 {
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+            }
+        }
+
+        .cont5 {
+            .cont5info {
+                h2 {
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                    color: $grisobscuro;
+                }
+
+                .links__arrow {
+                    font-size: 0.938rem;
+                }
+            }
+        }
+
+        .cont6 {
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+                color: $grisobscuro;
+            }
+        }
+
+        .cont7 {
+            .stats__info {
+                h2 {
+                    font-size: 1rem;
+                }
+
+                p {
+                    font-size: 0.875rem;
+                }
+            }
+        }
+    }
+
+    /*===== Servicios =====*/
+
+    .serviciosmain {
+        .cont__titulo {
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+                color: $grisobscuro;
+            }
+        }
+
+        .cont1 {
+            .card-space {
+                p {
+                    font-size: 1rem;
+                    color: $grisobscuro;
+                }
+            }
+        }
+
+        .cont2 {
+            .cont2__titulo {
+                h2 {
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                    color: $grisobscuro;
+                }
+            }
+        }
+    }
+
+    /*===== Equipo =====*/
+
+    .equipomain {
+        .cont__titulo {
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+                color: $grisobscuro;
+            }
+        }
+    }
+}
