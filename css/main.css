@@ -48,11 +48,23 @@ header {
       background-color: #000000; }
 
 .cloudocmain {
-  overflow-y: hidden; }
+  overflow-y: hidden;
+  margin-bottom: 98px; }
+  .cloudocmain .sectionclou .divcolor {
+    background-color: #4010c5;
+    height: 350px; }
+    .cloudocmain .sectionclou .divcolor .btnsection #demo {
+      background-color: #000000;
+      border-style: none;
+      color: #f5f5f5; }
+      .cloudocmain .sectionclou .divcolor .btnsection #demo:hover {
+        background-color: #f5f5f5;
+        color: #4010c5;
+        border-style: none; }
   .cloudocmain .cont__titulo {
     margin-top: 100px;
     text-align: center;
-    margin-bottom: 70px; }
+    margin-bottom: 25px; }
     .cloudocmain .cont__titulo h2 {
       font-size: 2.75rem; }
     .cloudocmain .cont__titulo p {
@@ -126,7 +138,12 @@ header {
     font-size: 1.25rem; }
 
 .solucionesmain .btncont1 a {
-  color: #4010c5; }
+  background-color: #000000;
+  color: #f5f5f5;
+  border: none; }
+  .solucionesmain .btncont1 a:hover {
+    background-color: #f5f5f5;
+    color: #4010c5; }
 
 .solucionesmain .cont2 {
   text-align: center; }
@@ -261,12 +278,13 @@ header {
   background-color: #000000;
   color: #f5f5f5; }
   .serviciosmain .cont3 .contbtn button:hover {
-    background-color: #4010c5; }
+    background-color: #f5f5f5;
+    color: #4010c5; }
 
 .equipomain .cont__titulo {
   margin-top: 100px;
   text-align: center;
-  margin-bottom: 50px; }
+  margin-bottom: 20px; }
   .equipomain .cont__titulo h2 {
     font-size: 2.75rem; }
   .equipomain .cont__titulo p {
@@ -304,10 +322,17 @@ header {
 @media screen and (max-width: 576px) {
   /*===== Inicio / Index =====*/
   .spacing__main .cont1__main span {
-    font-size: 2.5rem; }
+    font-size: 2.2rem; }
   .spacing__main .cont1__main .jumbotron p {
     font-size: 1rem; }
   /*===== ClouDoc =====*/
+  .cloudocmain .sectionclou .divcolor {
+    background-color: #4010c5;
+    height: 430px; }
+  .cloudocmain .sectionclou h2 {
+    font-size: 1.4rem; }
+  .cloudocmain .sectionclou p {
+    display: none; }
   .cloudocmain .cont__titulo h2 {
     font-size: 1.5rem; }
   .cloudocmain .cont__titulo p {

@@ -40,7 +40,14 @@
 
     .btncont1 {
         a {
-            color: $morado;
+            background-color: $negro;
+            color: $grisclaro;
+            border: none;
+
+            &:hover {
+                background-color: $grisclaro;
+                color: $morado;
+            }
         }
     }
 

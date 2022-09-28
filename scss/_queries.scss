@@ -4,7 +4,7 @@
     .spacing__main {
         .cont1__main {
             span {
-                font-size: 2.5rem;
+                font-size: 2.2rem;
             }
 
             .jumbotron {
@@ -18,6 +18,23 @@
     /*===== ClouDoc =====*/
 
     .cloudocmain {
+
+        .sectionclou {
+            
+            .divcolor {
+                background-color: $morado;
+                height: 430px;
+            }
+
+            h2 {
+                font-size: 1.4rem;
+            }
+
+            p {
+                display: none;
+            }
+        }
+
         .cont__titulo {
             h2 {
                 font-size: 1.5rem;

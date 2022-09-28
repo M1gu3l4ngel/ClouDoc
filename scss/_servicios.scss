@@ -95,7 +95,8 @@
                 color: $grisclaro;
 
                 &:hover {
-                    background-color: $morado;
+                    background-color: $grisclaro;
+                    color: $morado;
                 }
             }
         }
