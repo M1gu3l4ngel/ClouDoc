@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box; }
 
+/* Variables Colores Principales */
+/* Variables para Fonts */
+/* Boton de Demo */
+/* Boton de Login */
+/* Titulos Principales */
+/* Links de Texto con Flechas */
+/* Iconos para Cards */
 header {
   z-index: 666; }
   header .navbar {
@@ -38,7 +45,8 @@ header {
     color: #555555; }
   .main .spacing__main .jumbotron #demo {
     border: none;
-    background-color: #000000; }
+    background-color: #000000;
+    color: #f5f5f5; }
     .main .spacing__main .jumbotron #demo:hover {
       background-color: #4010c5; }
   .main .spacing__main .jumbotron #login {
@@ -47,54 +55,63 @@ header {
     .main .spacing__main .jumbotron #login:hover {
       background-color: #000000; }
 
-.cloudocmain {
-  overflow-y: hidden;
-  margin-bottom: 98px; }
-  .cloudocmain .sectionclou .divcolor {
-    background-color: #4010c5;
-    height: 350px; }
-    .cloudocmain .sectionclou .divcolor .btnsection #demo {
-      background-color: #000000;
-      border-style: none;
-      color: #f5f5f5; }
-      .cloudocmain .sectionclou .divcolor .btnsection #demo:hover {
-        background-color: #f5f5f5;
-        color: #4010c5;
-        border-style: none; }
-  .cloudocmain .cont__titulo {
-    margin-top: 100px;
-    text-align: center;
-    margin-bottom: 25px; }
-    .cloudocmain .cont__titulo h2 {
+.cloudocmain .sectionclou .divcolor {
+  background-color: #4010c5;
+  height: 470px; }
+  .cloudocmain .sectionclou .divcolor .divsize1 {
+    text-align: center; }
+    .cloudocmain .sectionclou .divcolor .divsize1 h2 {
       font-size: 2.75rem; }
-    .cloudocmain .cont__titulo p {
-      font-size: 1.12rem;
-      color: #555555; }
-    .cloudocmain .cont__titulo .cont {
-      margin-top: 27px; }
-      .cloudocmain .cont__titulo .cont .spacing__card {
-        margin-top: 30px; }
-        .cloudocmain .cont__titulo .cont .spacing__card .card__sizing {
-          padding: 10px;
-          align-items: center; }
-  .cloudocmain .card__icon {
-    font-size: 3.20rem;
-    margin-bottom: 20px;
-    color: #4010c5; }
-  .cloudocmain .card-cloudoc {
-    margin-bottom: 40px;
-    margin-top: 12px; }
-  .cloudocmain .p__color p {
+    .cloudocmain .sectionclou .divcolor .divsize1 p {
+      font-size: 1.2rem; }
+  .cloudocmain .sectionclou .divcolor .btnsection #demo {
+    border: none;
+    background-color: #000000;
+    color: #f5f5f5; }
+    .cloudocmain .sectionclou .divcolor .btnsection #demo:hover {
+      background-color: #f5f5f5;
+      color: #4010c5;
+      border-style: none; }
+  .cloudocmain .sectionclou .divcolor .imagenclou {
+    min-height: 250px; }
+
+.cloudocmain .cont__titulo {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 25px; }
+  .cloudocmain .cont__titulo h2 {
+    font-size: 2.75rem; }
+  .cloudocmain .cont__titulo p {
+    font-size: 1.2rem;
     color: #555555; }
+  .cloudocmain .cont__titulo .cont {
+    margin-top: 27px; }
+    .cloudocmain .cont__titulo .cont .spacing__card {
+      margin-top: 30px; }
+      .cloudocmain .cont__titulo .cont .spacing__card .card__sizing {
+        padding: 10px;
+        align-items: center; }
+
+.cloudocmain .card__icon {
+  font-size: 3.2rem;
+  color: #4010c5;
+  margin-bottom: 10px; }
+
+.cloudocmain .card-cloudoc {
+  margin-bottom: 40px;
+  margin-top: 12px; }
+
+.cloudocmain .p__color p {
+  color: #555555; }
 
 .contactmain .card__info {
   margin-top: 100px;
   text-align: center;
-  margin-bottom: 10px; }
+  margin-bottom: 25px; }
   .contactmain .card__info h2 {
     font-size: 2.75rem; }
   .contactmain .card__info p {
-    font-size: 1.12rem;
+    font-size: 1.2rem;
     color: #555555; }
 
 .contactmain .link_bold {
@@ -114,13 +131,13 @@ header {
   color: #f5f5f5; }
 
 .solucionesmain .cont__titulo {
-  margin-top: 10px;
+  margin-top: 100px;
   text-align: center;
-  margin-bottom: 70px; }
+  margin-bottom: 25px; }
   .solucionesmain .cont__titulo h2 {
     font-size: 2.75rem; }
   .solucionesmain .cont__titulo p {
-    font-size: 1.12rem;
+    font-size: 1.2rem;
     color: #555555; }
 
 .solucionesmain .cont1 .bgcolor {
@@ -133,24 +150,16 @@ header {
   .solucionesmain .cont1 .cont1__info h6 {
     font-size: 0.87rem; }
   .solucionesmain .cont1 .cont1__info h2 {
-    font-size: 44px; }
+    font-size: 2.75rem; }
   .solucionesmain .cont1 .cont1__info p {
-    font-size: 1.25rem; }
-
-.solucionesmain .btncont1 a {
-  background-color: #000000;
-  color: #f5f5f5;
-  border: none; }
-  .solucionesmain .btncont1 a:hover {
-    background-color: #f5f5f5;
-    color: #4010c5; }
+    font-size: 1.2rem; }
 
 .solucionesmain .cont2 {
   text-align: center; }
   .solucionesmain .cont2 h2 {
     font-size: 2.75rem; }
   .solucionesmain .cont2 p {
-    font-size: 1.12rem;
+    font-size: 1.2rem;
     color: #555555; }
   .solucionesmain .cont2 .links__arrow {
     font-size: 1.12rem;
@@ -163,7 +172,7 @@ header {
   font-size: 2.75rem; }
 
 .solucionesmain .cont3 .cont__info p {
-  font-size: 1.12rem;
+  font-size: 1.2rem;
   color: #555555; }
 
 .solucionesmain .cont3 .cont__info .links__arrow {
@@ -178,28 +187,35 @@ header {
   .solucionesmain .cont4 .cont4info h2 {
     font-size: 2.75rem; }
   .solucionesmain .cont4 .cont4info p {
-    font-size: 1.12rem; }
+    font-size: 1.2rem; }
+  .solucionesmain .cont4 .btncont1 a {
+    border: none;
+    background-color: #000000;
+    color: #f5f5f5; }
+    .solucionesmain .cont4 .btncont1 a:hover {
+      background-color: #f5f5f5;
+      color: #4010c5; }
 
-.solucionesmain .cont5 .cont5info h2 {
-  font-size: 2.75rem; }
-
-.solucionesmain .cont5 .cont5info p {
-  font-size: 1.12rem;
-  color: #555555; }
-
-.solucionesmain .cont5 .cont5info .links__arrow {
-  font-size: 1.12rem;
-  color: #4010c5;
-  text-decoration: none; }
-  .solucionesmain .cont5 .cont5info .links__arrow:hover {
-    color: #000000; }
+.solucionesmain .cont5 .cont5info .cont5div {
+  max-width: 350px; }
+  .solucionesmain .cont5 .cont5info .cont5div h2 {
+    font-size: 2.75rem; }
+  .solucionesmain .cont5 .cont5info .cont5div p {
+    font-size: 1.2rem;
+    color: #555555; }
+  .solucionesmain .cont5 .cont5info .cont5div .links__arrow {
+    font-size: 1.12rem;
+    color: #4010c5;
+    text-decoration: none; }
+    .solucionesmain .cont5 .cont5info .cont5div .links__arrow:hover {
+      color: #000000; }
 
 .solucionesmain .cont6 {
   text-align: center; }
   .solucionesmain .cont6 h2 {
     font-size: 2.75rem; }
   .solucionesmain .cont6 p {
-    font-size: 1.12rem;
+    font-size: 1.2rem;
     color: #555555; }
 
 .solucionesmain .cont7 .cont7__stats {
@@ -216,7 +232,8 @@ header {
   text-align: center; }
   .solucionesmain .cont8 #demo {
     border: none;
-    background-color: #000000; }
+    background-color: #000000;
+    color: #f5f5f5; }
     .solucionesmain .cont8 #demo:hover {
       background-color: #4010c5; }
   .solucionesmain .cont8 .cont8__parrafo {
@@ -226,15 +243,15 @@ header {
 .serviciosmain .cont__titulo {
   margin-top: 100px;
   text-align: center;
-  margin-bottom: 30px; }
+  margin-bottom: 25px; }
   .serviciosmain .cont__titulo h2 {
     font-size: 2.75rem; }
   .serviciosmain .cont__titulo p {
-    font-size: 1.12rem;
+    font-size: 1.2rem;
     color: #555555; }
 
 .serviciosmain .cont1 .cards i {
-  font-size: 50px;
+  font-size: 3.2rem;
   color: #4010c5;
   margin-bottom: 10px; }
 
@@ -246,7 +263,7 @@ header {
   .serviciosmain .cont2 .cont2__titulo h2 {
     font-size: 2.75rem; }
   .serviciosmain .cont2 .cont2__titulo p {
-    font-size: 1.12rem;
+    font-size: 1.2rem;
     color: #555555; }
 
 .serviciosmain .card1 #login {
@@ -275,6 +292,7 @@ header {
   background-color: #4010c5; }
 
 .serviciosmain .cont3 .contbtn button {
+  border: none;
   background-color: #000000;
   color: #f5f5f5; }
   .serviciosmain .cont3 .contbtn button:hover {
@@ -284,11 +302,11 @@ header {
 .equipomain .cont__titulo {
   margin-top: 100px;
   text-align: center;
-  margin-bottom: 20px; }
+  margin-bottom: 25px; }
   .equipomain .cont__titulo h2 {
     font-size: 2.75rem; }
   .equipomain .cont__titulo p {
-    font-size: 1.12rem;
+    font-size: 1.2rem;
     color: #555555; }
 
 .equipomain .cont1 .cont1__color {
@@ -301,7 +319,7 @@ header {
   color: #4010c5; }
 
 .equipomain .cont2 .icons li a {
-  font-size: 20px;
+  font-size: 1.2rem;
   color: #555555; }
   .equipomain .cont2 .icons li a:hover {
     color: #4010c5; }
@@ -328,11 +346,12 @@ header {
   /*===== ClouDoc =====*/
   .cloudocmain .sectionclou .divcolor {
     background-color: #4010c5;
-    height: 430px; }
-  .cloudocmain .sectionclou h2 {
-    font-size: 1.4rem; }
-  .cloudocmain .sectionclou p {
-    display: none; }
+    height: 420px; }
+    .cloudocmain .sectionclou .divcolor .divsize1 h2 {
+      font-size: 1.4rem; }
+    .cloudocmain .sectionclou .divcolor .divsize1 p {
+      font-size: 1.12rem;
+      display: none; }
   .cloudocmain .cont__titulo h2 {
     font-size: 1.5rem; }
   .cloudocmain .cont__titulo p {

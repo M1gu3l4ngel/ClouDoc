@@ -7,17 +7,16 @@
 
         .jumbotron {
             h2 {
-                font-size: 2.75rem;
+                font-size: $titleh2;
             }
 
             p {
-                font-size: 1.2rem;
+                font-size: $parrafos;
                 color: $grisobscuro
             }
 
             #demo {
-                border: none;
-                background-color: $negro;
+                @include demo;
 
                 &:hover {
                     background-color: $morado;
@@ -25,8 +24,7 @@
             }
 
             #login {
-                border: none;
-                background-color: $morado;
+                @include login;
 
                 &:hover {
                     background-color: $negro;

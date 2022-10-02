@@ -20,18 +20,21 @@
     .cloudocmain {
 
         .sectionclou {
-            
+
             .divcolor {
                 background-color: $morado;
-                height: 430px;
-            }
+                height: 420px;
 
-            h2 {
-                font-size: 1.4rem;
-            }
+                .divsize1 {
+                    h2 {
+                        font-size: 1.4rem;
+                    }
 
-            p {
-                display: none;
+                    p {
+                        font-size: 1.12rem;
+                        display: none;
+                    }
+                }
             }
         }
 

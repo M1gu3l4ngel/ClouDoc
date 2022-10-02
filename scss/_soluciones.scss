@@ -1,15 +1,13 @@
 .solucionesmain {
     .cont__titulo {
-        margin-top: 10px;
-        text-align: center;
-        margin-bottom: 70px;
+        @include titleh2;
 
         h2 {
-            font-size: 2.75rem;
+            font-size: $titleh2;
         }
 
         p {
-            font-size: 1.12rem;
+            font-size: $parrafos;
             color: $grisobscuro;
         }
     }
@@ -25,28 +23,15 @@
             text-align: left;
 
             h6 {
-                font-size: 0.87rem;
+                font-size: $titleh6;
             }
 
             h2 {
-                font-size: 44px;
+                font-size: $titleh2;
             }
 
             p {
-                font-size: 1.25rem;
-            }
-        }
-    }
-
-    .btncont1 {
-        a {
-            background-color: $negro;
-            color: $grisclaro;
-            border: none;
-
-            &:hover {
-                background-color: $grisclaro;
-                color: $morado;
+                font-size: $parrafos;
             }
         }
     }
@@ -55,18 +40,16 @@
         text-align: center;
 
         h2 {
-            font-size: 2.75rem;
+            font-size: $titleh2;
         }
 
         p {
-            font-size: 1.12rem;
+            font-size: $parrafos;
             color: $grisobscuro;
         }
 
         .links__arrow {
-            font-size: 1.12rem;
-            color: $morado;
-            text-decoration: none;
+            @include linkarrow;
 
             &:hover {
                 color: $negro;
@@ -77,18 +60,16 @@
     .cont3 {
         .cont__info {
             h2 {
-                font-size: 2.75rem;
+                font-size: $titleh2;
             }
 
             p {
-                font-size: 1.12rem;
+                font-size: $parrafos;
                 color: $grisobscuro;
             }
 
             .links__arrow {
-                font-size: 1.12rem;
-                color: $morado;
-                text-decoration: none;
+                @include linkarrow;
 
                 &:hover {
                     color: $negro;
@@ -102,33 +83,47 @@
 
         .cont4info {
             h2 {
-                font-size: 2.75rem;
+                font-size: $titleh2;
             }
 
             p {
-                font-size: 1.12rem;
+                font-size: $parrafos;
+            }
+        }
+
+        .btncont1 {
+            a {
+                @include demo;
+
+                &:hover {
+                    background-color: $grisclaro;
+                    color: $morado;
+                }
             }
         }
     }
 
     .cont5 {
         .cont5info {
-            h2 {
-                font-size: 2.75rem;
-            }
 
-            p {
-                font-size: 1.12rem;
-                color: $grisobscuro;
-            }
+            .cont5div {
+                max-width: 350px;
 
-            .links__arrow {
-                font-size: 1.12rem;
-                color: $morado;
-                text-decoration: none;
+                h2 {
+                    font-size: $titleh2;
+                }
 
-                &:hover {
-                    color: $negro;
+                p {
+                    font-size: $parrafos;
+                    color: $grisobscuro;
+                }
+
+                .links__arrow {
+                    @include linkarrow;
+
+                    &:hover {
+                        color: $negro;
+                    }
                 }
             }
         }
@@ -138,11 +133,11 @@
         text-align: center;
 
         h2 {
-            font-size: 2.75rem;
+            font-size: $titleh2;
         }
 
         p {
-            font-size: 1.12rem;
+            font-size: $parrafos;
             color: $grisobscuro;
         }
     }
@@ -155,11 +150,11 @@
 
         .stats__info {
             h2 {
-                font-size: 1.5rem;
+                font-size: $cardtitle;
             }
 
             p {
-                font-size: 1rem;
+                font-size: $cardparrafo;
             }
         }
     }
@@ -168,15 +163,15 @@
         text-align: center;
 
         #demo {
-            border: none;
-            background-color: $negro;
+            @include demo;
+
             &:hover {
                 background-color: $morado;
             }
         }
 
         .cont8__parrafo {
-            font-size: 0.87rem;
+            font-size: $titleh6;
             color: $grisobscuro;
         }
     }

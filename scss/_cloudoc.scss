@@ -1,17 +1,25 @@
 .cloudocmain {
-    overflow-y: hidden;
-    margin-bottom: 98px;
 
     .sectionclou {
         .divcolor {
             background-color: $morado;
-            height: 350px;
+            height: 470px;
+
+            .divsize1 {
+                text-align: center;
+
+                h2 {
+                    font-size: $titleh2;
+                }
+
+                p {
+                    font-size: $parrafos;
+                }
+            }
 
             .btnsection {
                 #demo {
-                    background-color: $negro;
-                    border-style: none;
-                    color: $grisclaro;
+                    @include demo;
 
                     &:hover {
                         background-color: $grisclaro;
@@ -20,20 +28,22 @@
                     }
                 }
             }
+
+            .imagenclou {
+                min-height: 250px;
+            }
         }
     }
 
     .cont__titulo {
-        margin-top: 100px;
-        text-align: center;
-        margin-bottom: 25px;
+        @include titleh2;
 
         h2 {
-            font-size: 2.75rem;
+            font-size: $titleh2;
         }
 
         p {
-            font-size: 1.12rem;
+            font-size: $parrafos;
             color: $grisobscuro
         }
 
@@ -52,9 +62,7 @@
     }
 
     .card__icon {
-        font-size: 3.20rem;
-        margin-bottom: 20px;
-        color: $morado;
+        @include iconpages;
     }
 
     .card-cloudoc {

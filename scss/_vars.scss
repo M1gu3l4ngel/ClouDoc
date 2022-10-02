@@ -1,4 +1,48 @@
+/* Variables Colores Principales */
 $morado: #4010c5;
 $grisclaro: #f5f5f5;
 $negro: #000000;
 $grisobscuro: #555555;
+
+/* Variables para Fonts */
+$titleh2: 2.75rem;
+$parrafos: 1.2rem;
+$iconpages: 3.2rem;
+$titleh6: 0.87rem;
+$linkarrow: 1.12rem;
+$cardtitle: 1.5rem;
+$cardparrafo: 1rem;
+
+/* Boton de Demo */
+@mixin demo {
+    border: none;
+    background-color: $negro;
+    color: $grisclaro;
+}
+
+/* Boton de Login */
+@mixin login {
+    border: none;
+    background-color: $morado;
+}
+
+/* Titulos Principales */
+@mixin titleh2 {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Links de Texto con Flechas */
+@mixin linkarrow {
+    font-size: $linkarrow;
+    color: $morado;
+    text-decoration: none;
+}
+
+/* Iconos para Cards */
+@mixin iconpages {
+    font-size: $iconpages;
+    color: $morado;
+    margin-bottom: 10px;
+}

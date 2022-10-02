@@ -1,15 +1,13 @@
 .serviciosmain {
     .cont__titulo {
-        margin-top: 100px;
-        text-align: center;
-        margin-bottom: 30px;
+        @include titleh2;
 
         h2 {
-            font-size: 2.75rem;
+            font-size: $titleh2;
         }
 
         p {
-            font-size: 1.12rem;
+            font-size: $parrafos;
             color: $grisobscuro;
         }
     }
@@ -17,9 +15,7 @@
     .cont1 {
         .cards {
             i {
-                font-size: 50px;
-                color: $morado;
-                margin-bottom: 10px;
+                @include iconpages;
             }
 
             p {
@@ -33,11 +29,11 @@
             text-align: center;
 
             h2 {
-                font-size: 2.75rem;
+                font-size: $titleh2;
             }
 
             p {
-                font-size: 1.12rem;
+                font-size: $parrafos;
                 color: $grisobscuro;
             }
         }
@@ -45,8 +41,7 @@
 
     .card1 {
         #login {
-            border: none;
-            background-color: $morado;
+            @include login;
 
             &:hover {
                 background-color: $negro;
@@ -63,8 +58,7 @@
             }
 
             #login {
-                border: none;
-                background-color: $morado;
+                @include login;
 
                 &:hover {
                     background-color: $negro;
@@ -75,8 +69,7 @@
 
     .card3 {
         #login {
-            border: none;
-            background-color: $morado;
+            @include login;
 
             &:hover {
                 background-color: $negro;
@@ -91,8 +84,7 @@
 
         .contbtn {
             button {
-                background-color: $negro;
-                color: $grisclaro;
+                @include demo;
 
                 &:hover {
                     background-color: $grisclaro;
