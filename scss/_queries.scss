@@ -9,7 +9,7 @@
 
             .jumbotron {
                 p {
-                    font-size: 1rem;
+                    font-size: $parrafosmobile;
                 }
             }
         }
@@ -31,7 +31,6 @@
                     }
 
                     p {
-                        font-size: 1.12rem;
                         display: none;
                     }
                 }
@@ -40,11 +39,11 @@
 
         .cont__titulo {
             h2 {
-                font-size: 1.5rem;
+                font-size: $titleh2mobile;
             }
 
             p {
-                font-size: 1rem;
+                font-size: $parrafosmobile;
             }
         }
     }
@@ -54,11 +53,11 @@
     .contactmain {
         .card__info {
             h2 {
-                font-size: 1.5rem;
+                font-size: $titleh2mobile;
             }
 
             p {
-                font-size: 1rem;
+                font-size: $parrafosmobile;
             }
         }
     }
@@ -68,11 +67,11 @@
     .solucionesmain {
         .cont__titulo {
             h2 {
-                font-size: 1.5rem;
+                font-size: $titleh2mobile;
             }
 
             p {
-                font-size: 1rem;
+                font-size: $parrafosmobile;
             }
         }
 
@@ -83,7 +82,7 @@
                 }
 
                 h2 {
-                    font-size: 1.5rem;
+                    font-size: $titleh2mobile;
                 }
             }
         }
@@ -91,11 +90,11 @@
         .cont2 {
             .cont2__titulo {
                 h2 {
-                    font-size: 1.5rem;
+                    font-size: $titleh2mobile;
                 }
 
                 p {
-                    font-size: 1rem;
+                    font-size: $parrafosmobile;
                     color: $grisobscuro;
                 }
 
@@ -108,11 +107,11 @@
         .cont3 {
             .cont__info {
                 h2 {
-                    font-size: 1.5rem;
+                    font-size: $titleh2mobile;
                 }
 
                 p {
-                    font-size: 1rem;
+                    font-size: $parrafosmobile;
                     color: $grisobscuro;
                 }
 
@@ -125,11 +124,11 @@
         .cont4 {
             .cont4info {
                 h2 {
-                    font-size: 1.5rem;
+                    font-size: $titleh2mobile;
                 }
 
                 p {
-                    font-size: 1rem;
+                    font-size: $parrafosmobile;
                 }
             }
         }
@@ -137,11 +136,11 @@
         .cont5 {
             .cont5info {
                 h2 {
-                    font-size: 1.5rem;
+                    font-size: $titleh2mobile;
                 }
 
                 p {
-                    font-size: 1rem;
+                    font-size: $parrafosmobile;
                     color: $grisobscuro;
                 }
 
@@ -153,11 +152,11 @@
 
         .cont6 {
             h2 {
-                font-size: 1.5rem;
+                font-size: $titleh2mobile;
             }
 
             p {
-                font-size: 1rem;
+                font-size: $parrafosmobile;
                 color: $grisobscuro;
             }
         }
@@ -165,11 +164,11 @@
         .cont7 {
             .stats__info {
                 h2 {
-                    font-size: 1rem;
+                    font-size: $titleh2infomobile;
                 }
 
                 p {
-                    font-size: 0.875rem;
+                    font-size: 0.88rem;
                 }
             }
         }
@@ -180,11 +179,11 @@
     .serviciosmain {
         .cont__titulo {
             h2 {
-                font-size: 1.5rem;
+                font-size: $titleh2mobile;
             }
 
             p {
-                font-size: 1rem;
+                font-size: $parrafosmobile;
                 color: $grisobscuro;
             }
         }
@@ -192,7 +191,7 @@
         .cont1 {
             .card-space {
                 p {
-                    font-size: 1rem;
+                    font-size: $parrafosmobile;
                     color: $grisobscuro;
                 }
             }
@@ -201,11 +200,11 @@
         .cont2 {
             .cont2__titulo {
                 h2 {
-                    font-size: 1.5rem;
+                    font-size: $titleh2mobile;
                 }
 
                 p {
-                    font-size: 1rem;
+                    font-size: $parrafosmobile;
                     color: $grisobscuro;
                 }
             }
@@ -217,11 +216,11 @@
     .equipomain {
         .cont__titulo {
             h2 {
-                font-size: 1.5rem;
+                font-size: $titleh2mobile;
             }
 
             p {
-                font-size: 1rem;
+                font-size: $parrafosmobile;
                 color: $grisobscuro;
             }
         }
@@ -230,7 +229,7 @@
     .cont1 {
         .cont1__color {
             h2 {
-                font-size: 1.5rem;
+                font-size: $titleh2mobile;
             }
         }
     }

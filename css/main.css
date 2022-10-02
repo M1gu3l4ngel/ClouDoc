@@ -4,7 +4,8 @@
   box-sizing: border-box; }
 
 /* Variables Colores Principales */
-/* Variables para Fonts */
+/* Variables para Fonts - Browser */
+/* Variables para Fonts - Mobile */
 /* Boton de Demo */
 /* Boton de Login */
 /* Titulos Principales */
@@ -350,63 +351,62 @@ header {
     .cloudocmain .sectionclou .divcolor .divsize1 h2 {
       font-size: 1.4rem; }
     .cloudocmain .sectionclou .divcolor .divsize1 p {
-      font-size: 1.12rem;
       display: none; }
   .cloudocmain .cont__titulo h2 {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   .cloudocmain .cont__titulo p {
     font-size: 1rem; }
   /*===== Contacto =====*/
   .contactmain .card__info h2 {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   .contactmain .card__info p {
     font-size: 1rem; }
   /*===== Soluciones =====*/
   .solucionesmain .cont__titulo h2 {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   .solucionesmain .cont__titulo p {
     font-size: 1rem; }
   .solucionesmain .cont1 .cont1__info h6 {
     font-size: 0.8rem; }
   .solucionesmain .cont1 .cont1__info h2 {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   .solucionesmain .cont2 .cont2__titulo h2 {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   .solucionesmain .cont2 .cont2__titulo p {
     font-size: 1rem;
     color: #555555; }
   .solucionesmain .cont2 .cont2__titulo .links__arrow {
     font-size: 0.938rem; }
   .solucionesmain .cont3 .cont__info h2 {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   .solucionesmain .cont3 .cont__info p {
     font-size: 1rem;
     color: #555555; }
   .solucionesmain .cont3 .cont__info .links__arrow {
     font-size: 0.938rem; }
   .solucionesmain .cont4 .cont4info h2 {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   .solucionesmain .cont4 .cont4info p {
     font-size: 1rem; }
   .solucionesmain .cont5 .cont5info h2 {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   .solucionesmain .cont5 .cont5info p {
     font-size: 1rem;
     color: #555555; }
   .solucionesmain .cont5 .cont5info .links__arrow {
     font-size: 0.938rem; }
   .solucionesmain .cont6 h2 {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   .solucionesmain .cont6 p {
     font-size: 1rem;
     color: #555555; }
   .solucionesmain .cont7 .stats__info h2 {
     font-size: 1rem; }
   .solucionesmain .cont7 .stats__info p {
-    font-size: 0.875rem; }
+    font-size: 0.88rem; }
   /*===== Servicios =====*/
   .serviciosmain .cont__titulo h2 {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   .serviciosmain .cont__titulo p {
     font-size: 1rem;
     color: #555555; }
@@ -414,15 +414,15 @@ header {
     font-size: 1rem;
     color: #555555; }
   .serviciosmain .cont2 .cont2__titulo h2 {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   .serviciosmain .cont2 .cont2__titulo p {
     font-size: 1rem;
     color: #555555; }
   /*===== Equipo =====*/
   .equipomain .cont__titulo h2 {
-    font-size: 1.5rem; }
+    font-size: 1.6rem; }
   .equipomain .cont__titulo p {
     font-size: 1rem;
     color: #555555; }
   .cont1 .cont1__color h2 {
-    font-size: 1.5rem; } }
+    font-size: 1.6rem; } }

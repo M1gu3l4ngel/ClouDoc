@@ -4,7 +4,7 @@ $grisclaro: #f5f5f5;
 $negro: #000000;
 $grisobscuro: #555555;
 
-/* Variables para Fonts */
+/* Variables para Fonts - Browser */
 $titleh2: 2.75rem;
 $parrafos: 1.2rem;
 $iconpages: 3.2rem;
@@ -12,6 +12,11 @@ $titleh6: 0.87rem;
 $linkarrow: 1.12rem;
 $cardtitle: 1.5rem;
 $cardparrafo: 1rem;
+
+/* Variables para Fonts - Mobile */
+$titleh2mobile: 1.6rem;
+$parrafosmobile: 1rem;
+$titleh2infomobile: 1rem;
 
 /* Boton de Demo */
 @mixin demo {
