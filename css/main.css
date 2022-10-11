@@ -388,12 +388,12 @@ header {
     font-size: 1.6rem; }
   .solucionesmain .cont4 .cont4info p {
     font-size: 1rem; }
-  .solucionesmain .cont5 .cont5info h2 {
+  .solucionesmain .cont5 .cont5info .cont5div h2 {
     font-size: 1.6rem; }
-  .solucionesmain .cont5 .cont5info p {
+  .solucionesmain .cont5 .cont5info .cont5div p {
     font-size: 1rem;
     color: #555555; }
-  .solucionesmain .cont5 .cont5info .links__arrow {
+  .solucionesmain .cont5 .cont5info .cont5div .links__arrow {
     font-size: 0.938rem; }
   .solucionesmain .cont6 h2 {
     font-size: 1.6rem; }

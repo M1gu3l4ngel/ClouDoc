@@ -135,17 +135,19 @@
 
         .cont5 {
             .cont5info {
-                h2 {
-                    font-size: $titleh2mobile;
-                }
+                .cont5div {
+                    h2 {
+                        font-size: $titleh2mobile;
+                    }
 
-                p {
-                    font-size: $parrafosmobile;
-                    color: $grisobscuro;
-                }
+                    p {
+                        font-size: $parrafosmobile;
+                        color: $grisobscuro;
+                    }
 
-                .links__arrow {
-                    font-size: 0.938rem;
+                    .links__arrow {
+                        font-size: 0.938rem;
+                    }
                 }
             }
         }
