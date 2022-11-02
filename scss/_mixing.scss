@@ -1,0 +1,33 @@
+/* Boton de Demo */
+@mixin demo {
+    border: none;
+    background-color: $negro;
+    color: $grisclaro;
+}
+
+/* Boton de Login */
+@mixin login {
+    border: none;
+    background-color: $morado;
+}
+
+/* Titulos Principales */
+@mixin titleh2 {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Links de Texto con Flechas */
+@mixin linkarrow {
+    font-size: $linkarrow;
+    color: $morado;
+    text-decoration: none;
+}
+
+/* Iconos para Cards */
+@mixin iconpages {
+    font-size: $iconpages;
+    color: $morado;
+    margin-bottom: 10px;
+}
